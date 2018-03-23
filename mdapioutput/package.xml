@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>MyClass</members>
+    <members>MyTest</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>Department__c-Department Layout</members>
+    <members>Holiday__c-Holiday Layout</members>
+    <members>Position__c-Position Layout</members>
+    <members>SSCMap__c-SSCMap Layout</members>
+    <members>User-User Layout</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>Department__c</members>
+    <members>Holiday__c</members>
+    <members>Position__c</members>
+    <members>SSCMap__c</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>Department__c.manager__c</members>
+    <members>Holiday__c.comment__c</members>
+    <members>Holiday__c.endDate__c</members>
+    <members>Holiday__c.startDate__c</members>
+    <members>Holiday__c.total__c</members>
+    <members>Holiday__c.type__c</members>
+    <members>Holiday__c.useDate__c</members>
+    <members>Holiday__c.used__c</members>
+    <members>Holiday__c.user__c</members>
+    <members>Position__c.A__c</members>
+    <members>Position__c.B__c</members>
+    <members>Position__c.description__c</members>
+    <members>SSCMap__c.location__c</members>
+    <members>SSCMap__c.position__c</members>
+    <members>SSCMap__c.type__c</members>
+    <members>User.location__c</members>
+    <members>User.testF__c</members>
+    <members>User.type__c</members>
+  </types>
+  <version>42.0</version>
+</Package>
